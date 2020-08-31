@@ -164,7 +164,10 @@ arg1,arg2,arg3 = ...
             print("----------------------------------")
             print("---- Loot session has ended   ----")
             print("----------------------------------")
-						CloseLoot()
+			--CloseLoot()
+			--[[
+				Yeah if I remove the above line it ceases to cause a critical exception in WoW.exe
+			]]
           end
         end
       end
